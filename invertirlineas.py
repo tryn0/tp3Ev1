@@ -8,7 +8,7 @@ while linea:
   lista.append(linea)
   linea = leer.readline()
 leer.close()
-g = len(lista) - 1
-while g >= 0:
-  print(lista[g],end='')
-  g -= 1
+n = len(lista) - 1
+while n >= 0:
+  print(lista[n],end='')
+  n -= 1
