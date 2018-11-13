@@ -21,7 +21,7 @@ from sys import argv
 Función de leer las líneas incluidos los saltos
 
 ```python
-k.readline()
+.readline()
 ```
 
 
