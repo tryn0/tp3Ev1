@@ -14,8 +14,8 @@ Trabajo de programación de Guillermo Pérez
 
 El script desde sys importar argv
 
-```
-_from sys import argv_
+```python
+from sys import argv
 ```
 
 .readline
