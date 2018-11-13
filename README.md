@@ -21,7 +21,7 @@ from sys import argv
 .readline
 
 ```python
-aa.readline()
+k.readline()
 ```
 
 
