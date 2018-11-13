@@ -15,7 +15,7 @@ Trabajo de programación de Guillermo Pérez
 El script desde sys importar argv
 
 ```
-*from sys import argv*
+_from sys import argv_
 ```
 
 .readline
@@ -27,7 +27,7 @@ aa.readline()
 
 ### Estado
 
-- [x] Lee fichero frases
+- [x] Codigo python lee el fichero frases
 - [ ] Invierte líneas
 - [ ] Invierte palabras de cada frase
 
