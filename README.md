@@ -18,7 +18,7 @@ El script desde sys importar argv
 from sys import argv
 ```
 
-.readline
+Función de leer las líneas incluidos los saltos
 
 ```python
 k.readline()
