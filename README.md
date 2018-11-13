@@ -1,14 +1,33 @@
-# tp3Ev1
-Trabajo programación
+# tp3Ev1 - Programación
 
-Función a hacer del codigo:
+Trabajo de programación de Guillermo Pérez
+
+## Funciones que quiero que haga el código python
 
 -Lee las líneas del archivo frases.
 
--Invierte las líneas (Última -> primeras y viceversa)
+-Invierte las líneas leídas de frases (Última -> primera)
 
--Invierte las palabras de cada línea.
+-Invierte las palabras de cada línea ya invertida (A las lñineas ya invertidas se les invierte el orden de las palabras).
 
-Quiero hacer que ponga en mayúscula las palabras que más se repiten, en este caso así mirando por encima: Juanito.
+### Cosas usadas
 
-Quiero que la palabra que menos se repite se elimine o reemplace por github (Si es posible).
+El script desde sys importar argv
+
+```
+*from sys import argv*
+```
+
+.readline
+
+```
+aa.readline()
+```
+
+
+### Estado
+
+- [x] Lee fichero frases
+- [ ] Invierte líneas
+- [ ] Invierte palabras de cada frase
+
