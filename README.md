@@ -28,8 +28,8 @@ Función de leer las líneas incluidos los saltos
 ### Estado
 
 - [x] Codigo python lee el fichero frases
-- [ ] Invierte líneas
-- [ ] Invierte palabras de cada frase
+- [x] Invierte líneas
+- [x] Invierte palabras de cada frase
 
 ### Funcionamiento
 
