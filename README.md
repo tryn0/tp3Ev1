@@ -63,7 +63,7 @@ Quiero hacer un tkinter que al ejecutarlo nos salga una interfaz con una serie d
 Gracias a feedparser podemos visualizar noticias a través de canales RSS.
 
 ```python
-
+import feedparser
 ```
 
 
