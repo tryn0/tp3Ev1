@@ -55,7 +55,7 @@ Quiero hacer un tkinter que al ejecutarlo a través del teclado elegimos
 el noticiario: abc, 20minutos o rtve.
 
 Después de elegir el que se quiera visualizar nos pedirá el número de noticias que queremos ver, del 1 al 10. Y nos mostrará según lo que queremos
-1, 2, 3, x noticias o del 1 al 10, o del 5 al 10, etc.
+1, 2, 3, x noticias o del 1 al 10, o del 5 al 10, etc etc.
 
 ### Funcionamiento
 
