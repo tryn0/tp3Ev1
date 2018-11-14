@@ -50,4 +50,4 @@ while v < 1:
                         else:
                             k+=1
                 else:
-                    v+=1   
+                    v+=1
