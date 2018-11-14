@@ -63,5 +63,6 @@ Después de elegir el que se quiera visualizar nos pedirá el número de noticia
 - [x] Lee las noticias
 - [x] Imprime las noticias
 - [x] Lee e imprime las 10 primeras noticias
+- [x] Lee e imprime las 10 primeras noticias que elijas: ABC, RTVE o 20minutos.
 - [ ] Imprime X noticias
 - [ ] Imprime conjunto de noticias
