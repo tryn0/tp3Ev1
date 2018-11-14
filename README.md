@@ -72,3 +72,4 @@ Definiendo los valores de los canales RSS, filtrando solo las entradas (entries)
 - [x] Imprime las noticias
 - [x] Lee e imprime las 10 primeras noticias
 - [x] Lee e imprime las 10 primeras noticias del noticiario que elijas: ABC, RTVE o 20minutos.
+- [ ] Filtrar sin escribes otra cosa te redirige otra vez al bucle (Empieza de nuevo y puedes escribir)
