@@ -62,6 +62,11 @@ Quiero hacer un tkinter que al ejecutarlo nos salga una interfaz con una serie d
 
 Gracias a feedparser podemos visualizar noticias a través de canales RSS.
 
+```python
+
+```
+
+
 Definiendo los valores de los canales RSS, filtrando solo las entradas (entries) y cogiendo hasta el 10 y luego llamando a los valores según el input seleccionado (ABC, RTVE o 20minutos) llama a un valor u otro, según noticiario. Las imprime y reinicia el bucle, hasta que queramos salir que le damos intro sin escribir nada y corta el bucle.
 
 ### Estado del tkinter noticiero
