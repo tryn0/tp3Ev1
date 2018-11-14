@@ -51,11 +51,12 @@ Seguidamente lanzamos otra vez py para que python ejecute otro script pero esta 
 
 ## Parte dos del trabajo
 
-Quiero hacer un tkinter que al ejecutarlo a través del teclado elegimos
-el noticiario: abc, 20minutos o rtve.
-
-Después de elegir el que se quiera visualizar nos pedirá el número de noticias que queremos ver, del 1 al 10. Y nos mostrará según lo que queremos
-1, 2, 3, x noticias o del 1 al 10, o del 5 al 10, etc etc.
+Quiero hacer un tkinter que al ejecutarlo nos salga una interfaz con una serie de botones:
+-Noticias
+	-Tres botnoes con las noticias, en principio las ya configuradas: RTVE, ABC y 20minutos. Clickas en la que quieras y se te abre una ventana con las últimas 10 noticias de la elegida.
+	-Dentro de las noticias abajo del todo o arriba, según se vea mejor y sea más simple, un botón para atrás para volver a elegir otra noticia, otro botón para actualizar la noticia en la que estemos (Supongo que cargando otra vez la ventana con las noticias) y otro botón para salir (cerrar el tkinter)
+-Enviar un mensaje si se te ocurre alguna mejora.
+-Salir
 
 ### Funcionamiento
 
@@ -65,11 +66,16 @@ Definiendo los valores de los canales RSS, filtrando solo las entradas (entries)
 
 ### Estado del tkinter noticiero
 
+- [ ] Tkinter creado
 - [ ] Tkinter configurado
-- [ ] En tkinter imprime X noticias
-- [ ] En tkinter imprime un conjunto de noticias
 - [x] Lee las noticias
 - [x] Imprime las noticias
 - [x] Lee e imprime las 10 primeras noticias
 - [x] Lee e imprime las 10 primeras noticias del noticiario que elijas: ABC, RTVE o 20minutos.
-- [ ] Filtrar por si escribes otra cosa que no sean los noticiarios establecidos que te redirija otra vez al bucle (Empieza de nuevo y puedes escribir)
+
+
+
+
+
+
+Copyright© tryn0
