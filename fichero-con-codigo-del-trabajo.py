@@ -1,5 +1,6 @@
 import feedparser
 
+#Defino los valores para luego usarlos más cómodamente#
 abc=feedparser.parse('https://www.abc.es/rss/feeds/abc_EspanaEspana.xml')
 veinte=feedparser.parse('https://www.20minutos.es/rss/')
 rtve=feedparser.parse('http://api2.rtve.es/rss/temas_espana.xml')
@@ -12,7 +13,7 @@ noticias_rtve = rtve['entries'][:10]
 #Lo hice así para que puedas consultar infinitamente (o actualizar) y si quieres salir haciendo break con darle a intro sin poner nada sales#
 
 v=0
-while v < 4:
+while v < 1:
     print("Noticiario: ",end="")
     entry=input()
     entry2=entry.lower()

@@ -57,12 +57,18 @@ el noticiario: abc, 20minutos o rtve.
 Después de elegir el que se quiera visualizar nos pedirá el número de noticias que queremos ver, del 1 al 10. Y nos mostrará según lo que queremos
 1, 2, 3, x noticias o del 1 al 10, o del 5 al 10, etc.
 
+### Funcionamiento
+
+Gracias a feedparser podemos visualizar noticias a través de canales RSS.
+
+Definiendo los valores de los canales RSS, filtrando solo las entradas (entries) y cogiendo hasta el 10 y luego llamando a los valores según el input seleccionado (ABC, RTVE o 20minutos) llama a un valor u otro, según noticiario. Las imprime y reinicia el bucle, hasta que queramos salir que le damos intro sin escribir nada y corta el bucle.
+
 ### Estado del tkinter noticiero
 
 - [ ] Tkinter configurado
+- [ ] En tkinter imprime X noticias
+- [ ] En tkinter imprime un conjunto de noticias
 - [x] Lee las noticias
 - [x] Imprime las noticias
 - [x] Lee e imprime las 10 primeras noticias
 - [x] Lee e imprime las 10 primeras noticias del noticiario que elijas: ABC, RTVE o 20minutos.
-- [ ] Imprime X noticias
-- [ ] Imprime conjunto de noticias
