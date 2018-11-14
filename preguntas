@@ -1,0 +1,17 @@
+te llamas?
+*son mutables los datos tipo str?
+*simplifica el código usar diccionario para totalizar valores distintos?
+*hay en el repositorio alguna función que procese un fichero en disco?
+*hemos visto lo que significa una función recursiva?
+cual operador usas para modificar el contenido de una key en un diccionario?
+qué método de la clase dict usas para iterar sobre un dict?
+qué método de la clase list usas para agregar un nuevo valor a la lista?
+para que te ha servido usar la clase enumerate?
+qué función te resulta imprescindible usar cuando iteras una lista sin for?
+*es None un tipo bool?
+cuando te viene bien usar pass?
+cuando te resulta imprescindible usar break?
+*puedes obtener una lista a partir de un tipo str, en la que cada elemento será un caracter?
+*puede ser el contenido de una key de un diccionario otro diccionario?
+*puede ser el contenido de un elemento de una lista un diccionario?
+
