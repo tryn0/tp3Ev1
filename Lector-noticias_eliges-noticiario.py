@@ -11,37 +11,43 @@ noticias_rtve = rtve['entries'][:10]
 
 #Script#
 
-n=0
-k=0
-o=0
+
 h=0
 while h<3:
     entry=input("Elige un noticiario: ")
-    entry=entry.lower()
-    if entry!= "" and entry == "abc":
-        while n <= 10:
-            print(" --- " + noticias_abc[n].title + " --- ")
-            if n == 9:
-                print(" ")
-                break
-            else:
-                n+=1
-        if entry!="" and entry=="20minutos" or "20m" or "20min" or "20minuto":
-            while k <=10:
-                print(" --- " + noticias_veintem[k].title + " --- ")
-                if k == 9:
+    entry2=entry.lower()
+    if entry2!="":
+        if entry2=="abc":
+            n=0
+            while n <= 10:
+                print(" --- " + noticias_abc[n].title + " --- ")
+                if n == 9:
                     print(" ")
                     break
+                    h+=1
                 else:
-                    k+=1
+                    n+=1
         else:
-            if entry!="" and entry=="rtve":
-                while o <=10:
-                    print(" --- " + noticias_rtve[o].title + " --- ")
-                    if o == 9:
+            if entry2=="rtve":
+                k=0
+                while k <=10:
+                    print(" --- " + noticias_rtve[k].title + " --- ")
+                    if k == 9:
                         print(" ")
                         break
+                        h+=1
                     else:
-                        o+=1
+                        k+=1
             else:
-                h>=3
+                if entry2=="20minutos" or "20m" or "20min" or "20minuto":
+                    o=0
+                    while o <=10:
+                        print(" --- " + noticias_veintem[o].title + " --- ")
+                        if o == 9:
+                            print(" ")
+                            break
+                            h+=1
+                        else:
+                            o+=1
+                else:
+                    h+=1
