@@ -88,7 +88,7 @@ En la clase de programación de 15/11/2018 hablamos de un archivo con argv[1], y
 Al contrario que el anterior, este funciona a través de la línea de comandos.
 
 Para el archivo seleccionador-noticias.py
-```python
+```
 $ py numero-noticias.py x 
 ```
 
