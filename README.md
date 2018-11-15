@@ -52,10 +52,15 @@ Seguidamente lanzamos otra vez py para que python ejecute otro script pero esta 
 ## Parte dos del trabajo
 
 Quiero hacer un tkinter que al ejecutarlo nos salga una interfaz con una serie de botones:
+
 -Noticias
-	-Tres botnoes con las noticias, en principio las ya configuradas: RTVE, ABC y 20minutos. Clickas en la que quieras y se te abre una ventana con las últimas 10 noticias de la elegida.
-	-Dentro de las noticias abajo del todo o arriba, según se vea mejor y sea más simple, un botón para atrás para volver a elegir otra noticia, otro botón para actualizar la noticia en la que estemos (Supongo que cargando otra vez la ventana con las noticias) y otro botón para salir (cerrar el tkinter)
+
+-Tres botones con las noticias, en principio las ya configuradas: RTVE, ABC y 20minutos. Clickas en la que quieras y se te abre una ventana con las últimas 10 noticias de la elegida.
+	
+-Dentro de las noticias abajo del todo o arriba, según se vea mejor y sea más simple, un botón para atrás para volver a elegir otra noticia, otro botón para actualizar la noticia en la que estemos (Supongo que cargando otra vez la ventana con las noticias) y otro botón para salir (cerrar el tkinter)
+
 -Enviar un mensaje si se te ocurre alguna mejora.
+
 -Salir
 
 ### Funcionamiento
