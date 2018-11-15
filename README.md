@@ -79,6 +79,14 @@ Definiendo los valores de los canales RSS, filtrando solo las entradas (entries)
 - [x] Lee e imprime las 10 primeras noticias del noticiario que elijas: ABC, RTVE o 20minutos.
 
 
+## Parte 2.1 del trabajo
+
+En la clase de programación de 15/11/2018 hablamos de un archivo con argv[1], y gracias a una práctica del profesor jugamos con el archivo poniéndole un segundo argumento al archivo y se me ocurrió la idea de hacer un código ejecutado sólo a través de la línea de comandos.
+
+### Funcionamiento del 2.1
+
+Al contrario que el anterior
+
 
 
 
