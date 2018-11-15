@@ -96,20 +96,20 @@ En x ponemos un número de noticias que queramos que nos cargue.
 
 Ejemplo:
 
-```python
+```
 $ py numero-noticias.py 10
 ```
 Y luego nos dejará elegir un noticiario, elegimos rtve, abc o 20minutos (este último como 20m, 20min o 20minutos), mayúsculas o no.
 
 Ahora el siguiente código:
 
-```python
+```
 $ py numero-noticias-noticiero.py x y
 ```
 
 Teniendo en cuenta x como el número de noticias a visualizar e y como el noticiero. Ejemplo:
 
-```python
+```
 $ py numero-noticias-noticiero.py 10 abc
 ```
 
