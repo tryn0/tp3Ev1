@@ -52,15 +52,10 @@ Seguidamente lanzamos otra vez py para que python ejecute otro script pero esta 
 ## Parte dos del trabajo
 
 Quiero hacer un tkinter que al ejecutarlo nos salga una interfaz con una serie de botones:
-
 -Noticias
-
--Tres botones con las noticias, en principio las ya configuradas: RTVE, ABC y 20minutos. Clickas en la que quieras y se te abre una ventana con las últimas 10 noticias de la elegida.
-	
--Dentro de las noticias abajo del todo o arriba, según se vea mejor y sea más simple, un botón para atrás para volver a elegir otra noticia, otro botón para actualizar la noticia en la que estemos (Supongo que cargando otra vez la ventana con las noticias) y otro botón para salir (cerrar el tkinter)
-
+	-Tres botnoes con las noticias, en principio las ya configuradas: RTVE, ABC y 20minutos. Clickas en la que quieras y se te abre una ventana con las últimas 10 noticias de la elegida.
+	-Dentro de las noticias abajo del todo o arriba, según se vea mejor y sea más simple, un botón para atrás para volver a elegir otra noticia, otro botón para actualizar la noticia en la que estemos (Supongo que cargando otra vez la ventana con las noticias) y otro botón para salir (cerrar el tkinter)
 -Enviar un mensaje si se te ocurre alguna mejora.
-
 -Salir
 
 ### Funcionamiento
@@ -90,10 +85,33 @@ En la clase de programación de 15/11/2018 hablamos de un archivo con argv[1], y
 
 ### Funcionamiento del 2.1
 
-Al contrario que el anterior
+Al contrario que el anterior, este funciona a través de la línea de comandos.
 
+Para el archivo seleccionador-noticias.py
+```python
+$ py numero-noticias.py x 
+```
 
+En x ponemos un número de noticias que queramos que nos cargue.
 
+Ejemplo:
+
+```python
+$ py numero-noticias.py 10
+```
+Y luego nos dejará elegir un noticiario, elegimos rtve, abc o 20minutos (este último como 20m, 20min o 20minutos), mayúsculas o no.
+
+Ahora el siguiente código:
+
+```python
+$ py numero-noticias-noticiero.py x y
+```
+
+Teniendo en cuenta x como el número de noticias a visualizar e y como el noticiero. Ejemplo:
+
+```python
+$ py numero-noticias-noticiero.py 10 abc
+```
 
 
 Copyright© tryn0
