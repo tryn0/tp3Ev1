@@ -8,7 +8,7 @@ Trabajo de programación de Guillermo Pérez
 
 -Invierte las líneas leídas de frases (Última -> primera)
 
--Invierte las palabras de cada línea ya invertida (A las lñineas ya invertidas se les invierte el orden de las palabras).
+-Invierte las palabras de cada línea ya invertida (A las líneas ya invertidas se les invierte el orden de las palabras).
 
 ### Cosas usadas
 
