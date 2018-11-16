@@ -126,7 +126,7 @@ $ py noticiero2argv.py 10 abc
 
 Al seleccionar el que queramos nos preguntará si queremos elegir otro noticiario, si escribimos s y presionamos intro a continuación nos pedirá un número de noticias a visualizar, elegimos la cantidad que queramos, seguidamente escribimos el noticiario que queramos ver, nos mostrará una cantidad que hayamos elegido que serán las últimas noticias y se cerrará.
 
-Si antes escribimos n y apretamos n se nos cerrará.
+Si antes escribimos n y apretamos intro se nos cerrará.
 
 
 
