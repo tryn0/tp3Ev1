@@ -87,31 +87,47 @@ En la clase de programación de 15/11/2018 hablamos de un archivo con argv[1], y
 
 Al contrario que el anterior, este funciona a través de la línea de comandos.
 
-Para el archivo seleccionador-noticias.py
+Para el archivo noticiero.py
 ```
-$ py numero-noticias.py x 
+$ py noticiero.py
+```
+Al darle intro nos pedirá un noticiero, escribimos ABC, RTVE o 20minutos(20m, 20min o 20minutos.)
+
+Nos saldrán las 10 últimas noticias y nos dejará elegir otro noticiario, hasta que demos intro sin haber escrito nada.
+
+Para el archivo noticiero1argv.py
+```
+$ py noticiero1argv.py x 
 ```
 
-En x ponemos un número de noticias que queramos que nos cargue.
+En x ponemos un número de noticias que queramos que nos cargue. Y nos pedirá seleccionar un noticiero, al igual que en el anterior elegimos uno.
 
 Ejemplo:
 
 ```
-$ py numero-noticias.py 10
+$ py noticiero1argv.py 10
+$ Elige un noticiero: ABC, RTVE o 20minutos
 ```
 Y luego nos dejará elegir un noticiario, elegimos rtve, abc o 20minutos (este último como 20m, 20min o 20minutos), mayúsculas o no.
 
-Ahora el siguiente código:
+Hasta que demos intro sin haber escrito nada.
+
+Para el archivo noticiero2argv.py necesitaremos poner 2 argumentos:
 
 ```
-$ py numero-noticias-noticiero.py x y
+$ py noticiero2argv.py x y
 ```
 
 Teniendo en cuenta x como el número de noticias a visualizar e y como el noticiero. Ejemplo:
 
 ```
-$ py numero-noticias-noticiero.py 10 abc
+$ py noticiero2argv.py 10 abc
 ```
+
+Al seleccionar el que queramos nos preguntará si queremos elegir otro noticiario, si escribimos s y presionamos intro a continuación nos pedirá un número de noticias a visualizar, elegimos la cantidad que queramos, seguidamente escribimos el noticiario que queramos ver, nos mostrará una cantidad que hayamos elegido que serán las últimas noticias y se cerrará.
+
+Si antes escribimos n y apretamos n se nos cerrará.
+
 
 
 Copyright© tryn0
