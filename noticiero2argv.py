@@ -91,6 +91,8 @@ if w3!="abc" or w3!="rtve" or w3!="20m" or w3!="20minutos" or w3!="20min":
 		                        else:
 		                            k+=1
 		                else:
-		                    print("No ha elegido ningun noticiero valido. ")           
+		                    print("No ha elegido ningun noticiero valido. ")
+		    else:
+		    	print("Saliendo, no introdujo un noticiero valido.")         
     	else:
     		print("Saliendo... ")
