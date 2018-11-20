@@ -88,16 +88,27 @@ En la clase de programación de 15/11/2018 hablamos de un archivo con argv[1], y
 Al contrario que el anterior, este funciona a través de la línea de comandos.
 
 Para el archivo noticiero.py
+Windows
 ```
 $ py noticiero.py
 ```
+Linux
+```
+$ python noticiero.py
+```
+
 Al darle intro nos pedirá un noticiero, escribimos ABC, RTVE o 20minutos(20m, 20min o 20minutos.)
 
 Nos saldrán las 10 últimas noticias y nos dejará elegir otro noticiario, hasta que demos intro sin haber escrito nada.
 
 Para el archivo noticiero1argv.py
+Windows
 ```
 $ py noticiero1argv.py x 
+```
+Linux
+```
+$ python3 noticiero1argv.py x 
 ```
 
 En x ponemos un número de noticias que queramos que nos cargue. Y nos pedirá seleccionar un noticiero, al igual que en el anterior elegimos uno.
@@ -114,14 +125,25 @@ Hasta que demos intro sin haber escrito nada.
 
 Para el archivo noticiero2argv.py necesitaremos poner 2 argumentos:
 
+Windows
 ```
 $ py noticiero2argv.py x y
 ```
 
+Linux
+```
+$ python3 noticiero2argv.py x y
+```
+
 Teniendo en cuenta x como el número de noticias a visualizar e y como el noticiero. Ejemplo:
 
+Windows
 ```
 $ py noticiero2argv.py 10 abc
+```
+Linux
+```
+$ python3 noticiero2argv.py 10 abc
 ```
 
 Al seleccionar el que queramos nos preguntará si queremos elegir otro noticiario, si escribimos s y presionamos intro a continuación nos pedirá un número de noticias a visualizar, elegimos la cantidad que queramos, seguidamente escribimos el noticiario que queramos ver, nos mostrará una cantidad que hayamos elegido que serán las últimas noticias y se cerrará.
