@@ -5,9 +5,6 @@ abc=feedparser.parse('https://www.abc.es/rss/feeds/abc_EspanaEspana.xml')
 veintem=feedparser.parse('https://www.20minutos.es/rss/')
 rtve=feedparser.parse('http://api2.rtve.es/rss/temas_espana.xml')
 
-#Defino el script para que funcione con el argumento 1 como un numero entero#
-#Que lo defino como el numero de noticias que deseo visualizar#
-#Luego defino el argumento 2 como el nombre del noticiero que quieres visualizar#
 w=int(argv[1])
 noticias_abc = abc['entries'][:w]
 noticias_veintem = veintem['entries'][:w]
