@@ -2,6 +2,8 @@
 
 Trabajo de programación de Guillermo Pérez
 
+Para usar estos archivos hay que tener instalado python, para instalarlo diríjase a la web oficial buscando en google python y siguiendo los pasos, si ya lo tiene instalado continúe.
+
 ## Funciones que quiero que haga el código python
 
 -Lee las líneas del archivo frases.
