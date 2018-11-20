@@ -94,7 +94,7 @@ $ py noticiero.py
 ```
 Linux
 ```
-$ python noticiero.py
+$ python3 noticiero.py
 ```
 
 Al darle intro nos pedirá un noticiero, escribimos ABC, RTVE o 20minutos(20m, 20min o 20minutos.)
